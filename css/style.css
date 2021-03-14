@@ -13,6 +13,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: #00adb5;
+    font-weight: normal;
 }
 
 h3 {
@@ -21,8 +22,8 @@ h3 {
 }
 body{
     margin: 0;
-    text-align: center;
     font-family: 'Merriweather', serif;
+    text-align:center;
 }
 
 .middle-container{
@@ -53,6 +54,15 @@ a {
     color: #11999E;
 }
 
-#programmer{
-    margin-top: 52.6px;
+.skills-row{
+    width:50%;
+    margin: 100px auto;
+    text-align:left;
+    line-height: 2 ;
+}
+
+.skills-images{
+    width:25%;
+    float: left;
+    margin: auto 30px auto auto;
 }
